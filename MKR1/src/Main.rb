@@ -3,18 +3,17 @@ require './src/Task1'
 require './src/Task2'
 
 #task1
-puts "Enter a, b, c, x start, x finish, dx(step):"
 =begin
+puts "Enter a, b, c, x start, x finish, dx(step):"
 a = gets.chomp.to_f
 b = gets.chomp.to_f
 c = gets.chomp.to_f
 start = gets.chomp.to_f
 finish = gets.chomp.to_f
 step = gets.chomp.to_f
-=end
 
-#solve(a, b, c, start, finish, step)
-puts solve(-1, 2, 3, -1, 1, 0.1)
+puts solve(a, b, c, start, finish, step)
+=end
 
 #task2
 store = Store.new([Product.new("beer", "e4567890", "Germany", 10, 90, 1000),
